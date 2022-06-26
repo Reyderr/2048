@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class CellImageManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static CellImageManager Instance;
+    public Color[] CellColors;
+    public Color darkTheme;
+    public Color lightTheme;
 
-    // Update is called once per frame
-    void Update()
+    private void Awake()
     {
-        
+        if (Instance == null)
+            Instance = this;
     }
 }

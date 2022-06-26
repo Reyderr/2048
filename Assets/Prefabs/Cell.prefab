@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2668675720330188735}
   - component: {fileID: 6942763075786459227}
   - component: {fileID: 8726291627487196964}
+  - component: {fileID: 954342026959444098}
   m_Layer: 5
   m_Name: Cell
   m_TagString: Untagged
@@ -77,6 +78,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &954342026959444098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2421409083242875727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c21e07edbcf9064b91f78114d4d1fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _image: {fileID: 8726291627487196964}
+  _pointsText: {fileID: 4584967461310534039}
 --- !u!1 &4921742325778440196
 GameObject:
   m_ObjectHideFlags: 0
